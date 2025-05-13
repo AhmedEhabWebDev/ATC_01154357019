@@ -37,9 +37,9 @@ Postman for API testing
 #### 1️⃣ Install dependencies
 
 
+``` bash
 npm install
----
-
+```
 #### 2️⃣ Configure environment variables
 Create a .env file in the root directory and add:
 
