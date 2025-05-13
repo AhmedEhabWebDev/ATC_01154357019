@@ -36,14 +36,14 @@ Postman for API testing
 ### 📂 Getting Started
 #### 1️⃣ Install dependencies
 
----
+
 npm install
 ---
 
 #### 2️⃣ Configure environment variables
 Create a .env file in the root directory and add:
 
----
+
 PORT= 3000
 MONGO_URI= "mongodb://127.0.0.1:27017/areeb_task"
 SALT_ROUNDS = 12
