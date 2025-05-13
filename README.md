@@ -43,18 +43,18 @@ npm install
 #### 2️⃣ Configure environment variables
 Create a .env file in the root directory and add:
 
-
+``` bash
 PORT= 3000
 MONGO_URI= "mongodb://127.0.0.1:27017/areeb_task"
 SALT_ROUNDS = 12
 LOGIN_SECRET = "signIn$@11"
 PREFIX_SECRET = "eventSystem"
----
+```
 #### 3️⃣ Run the server
 
----
+```
 npm run start:dev
----
+```
 
 ### 📑 API Endpoints
 #### 🔐 User
@@ -87,9 +87,9 @@ npm run start:dev
 ### 🔑 Authentication
 
 Send the token in the request headers:
----
+```
 Authorization: eventSystem <token>
----
+```
 
 ### 🤖 AI Integration
 
